@@ -17,8 +17,8 @@ header {
 
 header h1 {
   padding: 0 0 0 20px;
-  color: yellow;
-  text-shadow: red;
+  color: grey;
+  text-shadow: 2px 2px white;
 }
 
 header a {
@@ -60,7 +60,7 @@ header nav ul li a {
 
 #hero h2 {
   display: flex;
-  color: yellow;
+  color: grey;
   margin: 0;
   font-size: x-large;
   position: absolute;
@@ -68,3 +68,53 @@ header nav ul li a {
   right: 0;
 }
 
+section {
+  padding: 60px 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  width: 95%;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.titles {
+  display: flex;
+  flex: 1 25%;
+  border-right: 10px solid grey;
+  font-size: 35px;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.text {
+  padding: 0 0 0 20px;
+}
+
+#contact ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#contact ul li {
+  list-style: none;
+}
+
+#contact ul li a {
+  display: flex;
+  font-size: 30px;
+  text-align: center;
+  margin: 0 auto 35px auto;
+  width: 50%;
+  font-weight: lighter;
+  padding: 0 25px 0 10px;
+  color: darkgray;
+  text-shadow: 2px 2px black;
+}
+
+#contact ul li a:hover {
+  color: red;
+}
