@@ -3,7 +3,12 @@
   font-weight: bold;
 }
 
+body {
+  margin: 0;
+}
+
 header {
+  background-image: url(/assets/images/star-wars-backgrounds-25.jpg);
   display: flex;
   background-color: green;
   align-items: center;
@@ -12,6 +17,8 @@ header {
 
 header h1 {
   padding: 0 0 0 20px;
+  color: yellow;
+  text-shadow: red;
 }
 
 header a {
@@ -20,6 +27,7 @@ header a {
 }
 
 header nav {
+  height: 50px;
   margin: 7px 0;
 }
 
@@ -32,10 +40,31 @@ header nav ul {
 }
 
 header nav ul li a {
-  padding: 10px 15px;
+  padding: 5px 15px;
   font-weight: lighter;
+  display: flex;
 }
 
 #hero {
-  ;
+  display: flex;
+  background-image: url("./images/DSC_0516.jpg");
+  background-position: center;
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-color: black;
+  margin: 0;
+  display: flex;
+  height: 500px;
+  position: relative;
 }
+
+#hero h2 {
+  display: flex;
+  color: yellow;
+  margin: 0;
+  font-size: x-large;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
