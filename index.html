@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="./assets/style.css" />
   </head>
   <body>
+   <!--header-->
     <header>
+      <div class="nav-container">
       <h1>Ramon Flowers Portfolio</h1>
       <nav>
         <ul>
@@ -15,21 +17,22 @@
             <a href="#about">About Me</a>
           </li>
           <li>
-            <a href="#work">Experience</a>
+            <a href="#work-section">Work</a>
           </li>
           <li>
             <a href="#contact">Contact Info</a>
           </li>
         </ul>
       </nav>
+    </div>
     </header>
-
+<!--hero section-->
     <section id="hero">
       <h2>What A Time...</h2>
     </section>
-
+<!--about me section-->
     <section id="about">
-      <div class="container">
+      <div class="about-me-box">
         <div class="title">
           <h2 class="titles">About Me</h2>
         </div>
@@ -56,21 +59,58 @@
         </div>
       </div>
     </section>
-
-    <section id="work">
+<!--work section-->
+<section  id="work-section">
+  <div class="grid-container">
+    <div class="grid-header">
+      <h2>Work</h2>
+    </div>
+        <div class="main-grid">
+  <div class="work-item work-item-1">
+    <div>
+    <h3>Surf Report</h3>
+    <p>MERIN Stack</p>
+  </div>
+    <a href=""><img src="./assets/images/Brisick-Surfing-Selfie.jpg" alt="image 1 "></a>
+  </div>
+  <div class="work-item work-item-2">
+    <div>
+    <h3>Led Wall</h3>
+    <p>Node/IoT</p>
+  </div>
+  <a href=""><img src="./assets/images/item-22.jpg" alt="image 2"></a>
+  </div>
+  <div class="work-item work-item-3">
+    <div>
+    <h3>Calculator</h3>
+    <p>React/Javascript/CSS</p>
+  </div>
+  <a href=""><img src="./assets/images/item-33.jpg" alt="image 3"></a>
+  </div>
+  <div class="work-item work-item-4">
+    <div>
+    <h3>Horiseon</h3>
+    <p>Refactoring HTML</p>
+  </div>
+  <a href="https://github.com/rocketorangemen/Horiseon"><img src="./assets/images/brand-awareness.png" alt="Horiseon"></a>
+  </div>
+  <div class="work-item work-item-5">
+    <div>
+    <h3>RUN Buddy</h3>
+    <p>HTML/CSS</p>
+  </div>
+  <a href="https://github.com/rocketorangemen/run-buddy"><img src="./assets/images/item-55.jpg" alt="runbuddy image"></a>
+  </div>
+  </div>
+  </div>
+      </section>
+    <!--footer-->
+    <footer id="contact">
       <div class="container">
-        <div class="title">
-      <h2 class="titles">Experience</h2>
+        <div>
+          <h2 >Contact Info</h2>
         </div>
-      </div>
-    </section>
-
-    <section id="contact">
-      <div class="container">
-        <div class="title">
-          <h2 class="titles">Contact Info</h2>
-        </div>
-        <div class="text">
+        <div class="footer-nav">
           <ul>
             <li>
               <a href="mailto: rocketorangemen@gmail.com">Email</a>
@@ -88,6 +128,6 @@
           </ul>
         </div>
       </div>
-    </section>
+    </footer>
   </body>
 </html>
